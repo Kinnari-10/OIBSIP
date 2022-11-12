@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: 0px;
+}
+header{
+background-color: #50d6d8;
+text-align: center;
+
+}
+
+footer,nav{
+    display: flex;
+    background-color: rgb(26, 15, 15);
+    
+}
+footer a,nav a{
+    display: block;
+    color: aquamarine;
+    text-decoration: none;
+    padding: 14px 20px;
+    float:left ;
+}
+section{
+    text-align: center;
+    height: 100%;
+    padding: 75px;
+    min-height: 40vh;
+}
+
+.banner{
+background-image: url(wel.gif);
+height: 20vw;
+min-height: 100px;
+background-repeat: no-repeat;
+background-position: top center;
+background-size: 39%;
+background-position-x:100% ;
+background-attachment: fixed;
+
+}
+
+img{
+    padding: 0 20px 0 20px;
+
+}
+.photo{
+    border-radius: 50%;
+
+}
+h2{
+    padding-bottom: 40px ;
+}
+
+
+.copyright{
+    float: right;
+    margin-left: auto;
+
+}
+
+.menu-btn:hover{
+    background-color: rgb(73, 156, 229);
+    color: black;
+}
+
+section h2 span{
+    background: linear-gradient(to right,#f5d837,#bbb812);
+    padding: 10px;
+    border-radius: 20px;
+}
+section h4{
+    padding: 15px;
+    letter-spacing: 2px;
+    font-size: larger;
+}
+p{
+font-size: large;
+font-style: normal;
+color: #4d1245;
+text-align: left;
+
+} 
+
+/*  .carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .carousel-cell video{
+      max-width: 100%;
+  }
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 
+    position: relative;
+    width: 100%;
+
+  } 
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  } 
+  .img-responsive{
+      max-width: 100vh;
+      height: 100vh;
+  } */
+  
+  .profile-name{
+      font-size: 2em;
+      font-weight: 900;
+      letter-spacing: 4px;
+      word-spacing: 10px;
+      text-transform: uppercase;
+      margin: 20px 0px 30px 0px;
+  }
+  
+  .smhandle a{
+        background-color: rgb(162, 202, 162);
+        padding: 10px 15px;
+        border-radius: 30px;
+        margin: 5px 10px;
+        text-decoration: none;
+        font-size: 1.25em;
+  }
+  .smhandle a:hover{
+      background-color: rgb(30 30 30 / 25%);
+      padding: 5px;
+  }
+  .smhandle a i{
+      margin: 5px;
+  }
+  .yt{
+      color: #3B5998;
+  }
+  .about_us{
+      margin: 50px;
+  }
+@media screen and (max-width: 700px) {
+   footer,nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .flex-align-right{
+        margin-left: 0;
+    }
+    
+}
+
